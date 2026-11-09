@@ -102,6 +102,9 @@ ob_start();
 <!-- wp:paragraph {"className":"cp-card__ingredients"} -->
 <p class="cp-card__ingredients"><?php echo esc_html__( 'Mango · Pineapple · Banana · Coconut Milk · Lime · Toasted Coconut', 'citrus-press-lite' ); ?></p>
 <!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"cp-card__contains"} -->
+<p class="cp-card__contains"><?php echo wp_kses_post( __( '<strong>Contains:</strong> coconut', 'citrus-press-lite' ) ); ?></p>
+<!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"cp-card__tags"} -->
 <p class="cp-card__tags"><?php echo esc_html__( 'vegan · GF · bestseller', 'citrus-press-lite' ); ?></p>
 <!-- /wp:paragraph -->
@@ -127,6 +130,9 @@ ob_start();
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"cp-card__ingredients"} -->
 <p class="cp-card__ingredients"><?php echo esc_html__( 'Wild Blueberry · Strawberry · Raspberry · Banana · Oat Milk · Flaxseed', 'citrus-press-lite' ); ?></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"cp-card__contains"} -->
+<p class="cp-card__contains"><?php echo wp_kses_post( __( '<strong>Contains:</strong> oats', 'citrus-press-lite' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"cp-card__tags"} -->
 <p class="cp-card__tags"><?php echo esc_html__( 'vegan · bestseller', 'citrus-press-lite' ); ?></p>
@@ -154,6 +160,9 @@ ob_start();
 <!-- wp:paragraph {"className":"cp-card__ingredients"} -->
 <p class="cp-card__ingredients"><?php echo esc_html__( 'Banana · Natural Peanut Butter · Oat Milk · Medjool Dates · Cacao Nibs', 'citrus-press-lite' ); ?></p>
 <!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"cp-card__contains"} -->
+<p class="cp-card__contains"><?php echo wp_kses_post( __( '<strong>Contains:</strong> peanuts, oats', 'citrus-press-lite' ) ); ?></p>
+<!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"cp-card__tags"} -->
 <p class="cp-card__tags"><?php echo esc_html__( 'vegan · bestseller', 'citrus-press-lite' ); ?></p>
 <!-- /wp:paragraph -->
@@ -179,6 +188,9 @@ ob_start();
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"cp-card__ingredients"} -->
 <p class="cp-card__ingredients"><?php echo esc_html__( 'Organic Açaí · Wild Blueberry · Banana · Coconut Flakes · House Granola · Honey', 'citrus-press-lite' ); ?></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"cp-card__contains"} -->
+<p class="cp-card__contains"><?php echo wp_kses_post( __( '<strong>Contains:</strong> oats, coconut', 'citrus-press-lite' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"cp-card__tags"} -->
 <p class="cp-card__tags"><?php echo esc_html__( 'bestseller', 'citrus-press-lite' ); ?></p>

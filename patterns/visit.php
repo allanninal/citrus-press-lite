@@ -51,6 +51,9 @@ ob_start();
 <!-- wp:table {"className":"cp-hours"} -->
 <figure class="wp-block-table cp-hours"><table class="has-fixed-layout"><tbody><tr><td>Mon–Fri</td><td>7:00 AM – 6:00 PM · Early morning cold-press ready by 7 AM</td></tr><tr><td>Saturday</td><td>8:00 AM – 5:00 PM · Weekly farmers-market blend specials</td></tr><tr><td>Sunday</td><td>9:00 AM – 4:00 PM · Slow start, good vibes</td></tr></tbody></table></figure>
 <!-- /wp:table -->
+<!-- wp:paragraph {"placeholder":"Open now status (filled in from the hours above)","className":"is-style-open-status"} -->
+<p class="is-style-open-status"></p>
+<!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->
 </div>

@@ -56,6 +56,9 @@ ob_start();
 <!-- wp:paragraph {"className":"cp-plan__price"} -->
 <p class="cp-plan__price"><?php echo esc_html__( '$54', 'citrus-press-lite' ); ?></p>
 <!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"cp-plan__each"} -->
+<p class="cp-plan__each"><?php echo esc_html__( '$54 a day', 'citrus-press-lite' ); ?></p>
+<!-- /wp:paragraph -->
 <!-- wp:buttons -->
 <div class="wp-block-buttons">
 <!-- wp:button {"className":"is-style-outline"} -->
@@ -101,6 +104,9 @@ ob_start();
 <!-- wp:paragraph {"className":"cp-plan__price"} -->
 <p class="cp-plan__price"><?php echo esc_html__( '$149', 'citrus-press-lite' ); ?></p>
 <!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"cp-plan__each"} -->
+<p class="cp-plan__each"><?php echo wp_kses_post( __( '$49.67 a day · <strong>save 8%</strong> on single days', 'citrus-press-lite' ) ); ?></p>
+<!-- /wp:paragraph -->
 <!-- wp:buttons -->
 <div class="wp-block-buttons">
 <!-- wp:button -->
@@ -143,6 +149,9 @@ ob_start();
 <!-- wp:paragraph {"className":"cp-plan__price"} -->
 <p class="cp-plan__price"><?php echo esc_html__( '$239', 'citrus-press-lite' ); ?></p>
 <!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"cp-plan__each"} -->
+<p class="cp-plan__each"><?php echo wp_kses_post( __( '$47.80 a day · <strong>save 11%</strong> on single days', 'citrus-press-lite' ) ); ?></p>
+<!-- /wp:paragraph -->
 <!-- wp:buttons -->
 <div class="wp-block-buttons">
 <!-- wp:button {"className":"is-style-outline"} -->
@@ -152,6 +161,38 @@ ob_start();
 <!-- /wp:buttons -->
 </div>
 <!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"layout":{"type":"default"},"className":"cp-day"} -->
+<div class="wp-block-group cp-day">
+<!-- wp:heading {"level":3,"className":"cp-day__title"} -->
+<h3 class="wp-block-heading cp-day__title"><?php echo esc_html__( 'A day on a plan', 'citrus-press-lite' ); ?></h3>
+<!-- /wp:heading -->
+<!-- wp:list {"ordered":true,"className":"cp-day__list"} -->
+<ol class="wp-block-list cp-day__list">
+<!-- wp:list-item -->
+<li><?php echo esc_html__( '8:00 AM · Green Sunrise', 'citrus-press-lite' ); ?></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><?php echo esc_html__( '10:00 AM · Citrus Surge', 'citrus-press-lite' ); ?></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><?php echo esc_html__( '12:00 PM · Dark Greens', 'citrus-press-lite' ); ?></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><?php echo esc_html__( '2:00 PM · Beet Revival', 'citrus-press-lite' ); ?></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><?php echo esc_html__( '4:00 PM · Golden Hour', 'citrus-press-lite' ); ?></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><?php echo esc_html__( '6:00 PM · Watermelon Mint', 'citrus-press-lite' ); ?></li>
+<!-- /wp:list-item -->
+</ol>
+<!-- /wp:list -->
+<!-- wp:paragraph {"className":"cp-muted","fontSize":"small"} -->
+<p class="has-small-font-size cp-muted"><?php echo esc_html__( 'The 3- and 5-day plans repeat this day, with the shots and bowls listed above.', 'citrus-press-lite' ); ?></p>
+<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:paragraph {"align":"center","className":"cp-muted","fontSize":"small"} -->
